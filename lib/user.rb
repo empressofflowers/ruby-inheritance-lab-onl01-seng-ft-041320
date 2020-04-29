@@ -9,10 +9,10 @@ class User
   end
 
   def first_name
-    self.new(first_name)
+    User.new(first_name)
   end
 
   def last_name
-    self.new(last_name)
+    User.new(last_name)
   end
 end
