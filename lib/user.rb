@@ -8,11 +8,11 @@ class User
     @last_name = last_name
   end
 
-  def first_name
-    User.new(first_name)
+  def first_name name
+    User.first_name()
   end
 
-  def last_name
+  def last_name name
     User.new(last_name)
   end
 end
