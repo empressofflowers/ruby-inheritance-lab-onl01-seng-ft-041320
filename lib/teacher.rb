@@ -7,6 +7,4 @@ class Teacher < User
   def teach
     puts "#{KNOWLEDGE.sample}"
   end
-
-  binding.pry
 end
